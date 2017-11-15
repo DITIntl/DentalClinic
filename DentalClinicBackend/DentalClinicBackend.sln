@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinicBackend", "Dent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinicBackend.Tests", "DentalClinicBackend.Tests\DentalClinicBackend.Tests.csproj", "{02DB7795-1865-4AB0-BD08-EE3488D3BC9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DentalClinic.DAL", "DentalClinic.DAL\DentalClinic.DAL.csproj", "{495BDE7B-90E4-4FED-B301-B936EEE2890F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{02DB7795-1865-4AB0-BD08-EE3488D3BC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02DB7795-1865-4AB0-BD08-EE3488D3BC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02DB7795-1865-4AB0-BD08-EE3488D3BC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495BDE7B-90E4-4FED-B301-B936EEE2890F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495BDE7B-90E4-4FED-B301-B936EEE2890F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495BDE7B-90E4-4FED-B301-B936EEE2890F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495BDE7B-90E4-4FED-B301-B936EEE2890F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
