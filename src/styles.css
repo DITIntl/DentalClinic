@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+h1.center.aligned.header,
+h2.center.aligned.header,
+h3.center.aligned.header,
+h4.center.aligned.header,
+h5.center.aligned.header,
+h6.center.aligned.header {
+    margin-top: 2em;
+}
+
+.login-form {
+    width: 50vw;
+}

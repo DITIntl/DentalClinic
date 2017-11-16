@@ -1,0 +1,19 @@
+<h1 class="ui center aligned header">Login</h1>
+
+<form #f="ngForm"
+    (ngSubmit)="onSubmit(f.value)"
+    class="ui form">    
+    <div class="ui column centered grid">
+        <div class="column ten wide">
+            <div class="field">
+                <label for="login-field">Login</label>
+                <input type="text" id="login-field" placeholder="User login" name="login" ngModel />
+            </div>
+
+            <div class="field">
+                <label for="pass-field">Password</label>
+                <input type="password" id="pass-field" placeholder="User password" name="pass" ngModel />
+            </div>
+        </div>
+    </div>
+</form>
