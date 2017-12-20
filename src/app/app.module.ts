@@ -9,16 +9,21 @@ import { LocationStrategy, HashLocationStrategy, APP_BASE_HREF } from '@angular/
 import { AppComponent } from './app.component';
 import { NavComponent } from './navigation/nav.component';
 import { LoginComponent } from './login/login.component';
+import { MainComponent } from './pages/main/main.component';
+import { PromoBoxComponent } from './reusables/promo-box/promo-box.component';
 
 const routes: Routes =  [
+  { path: '', component: MainComponent },
   { path: 'login', component: LoginComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
+    MainComponent,
     NavComponent,
-    LoginComponent
+    LoginComponent,
+    PromoBoxComponent
   ],
   imports: [
     BrowserModule,

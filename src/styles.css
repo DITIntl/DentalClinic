@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 h1.center.aligned.header,
 h2.center.aligned.header,
 h3.center.aligned.header,
@@ -9,4 +13,16 @@ h6.center.aligned.header {
 
 .login-form {
     width: 50vw;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.push-neighbour-right-little {
+    margin-right: 2em;
 }
