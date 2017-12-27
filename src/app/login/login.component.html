@@ -1,18 +1,18 @@
-<h1>Login</h1>
-
-<form #f="ngForm"
-    (ngSubmit)="onSubmit(f.value)">    
-    <div>
+<div class="box bck-orange">
+    <form #f="ngForm"
+        (ngSubmit)="onSubmit(f.value)">    
         <div>
-            <div>
-                <label for="login-field">Login</label>
-                <input type="text" id="login-field" placeholder="User login" name="login" ngModel />
-            </div>
+            <div class="field-collection">
+                <div class="field">
+                    <input class="big in-column" type="text" id="login-field" placeholder="Customer ID" name="login" ngModel />
+                </div>
 
-            <div>
-                <label for="pass-field">Password</label>
-                <input type="password" id="pass-field" placeholder="User password" name="pass" ngModel />
+                <div class="field">
+                    <input class="big in-column" type="password" id="pass-field" placeholder="Password" name="pass" ngModel />
+                </div>
             </div>
         </div>
-    </div>
-</form>
+
+        <button type="submit" class="button bck-blue">Login</button>
+    </form>
+</div>
