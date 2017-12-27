@@ -1,0 +1,19 @@
+nav {
+    margin: 1em 1em 1em 1em;
+    overflow: hidden;
+}
+
+.icon {
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+}
+
+.nav-section {
+    float: left;
+    width: 50%;
+}
+
+.nav-info {
+    font-weight: bold;
+}

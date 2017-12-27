@@ -1,1 +1,112 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+}
+
+h1.center.aligned.header,
+h2.center.aligned.header,
+h3.center.aligned.header,
+h4.center.aligned.header,
+h5.center.aligned.header,
+h6.center.aligned.header {
+    margin-top: 2em;
+}
+
+.login-form {
+    width: 50vw;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.push-neighbour-right-little {
+    margin-right: 2em;
+}
+
+.button {
+    border: 0;
+    position: relative;
+    color: white;
+    font-size: 2em;
+}
+
+.huge {
+    width: 20vw;
+    height: 3em;
+}
+
+.bck-orange {
+    background-color: rgb(255, 180, 94);
+}
+
+.bck-blue {
+    background-color: #89d5e0;
+}
+
+.blue {
+    color: #89d5e0;
+}
+
+.box {
+    position: relative;
+    width: 25vw;
+    height: 70vh;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.box form > .button {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 2em;
+}
+
+.field-collection {
+    position: relative;
+}
+
+input.big {
+    width: 20vw;
+    height: 3em;
+    padding: 7px;
+    border-radius: 3px;
+    border: 0;
+}
+
+input.in-column {
+    display: block;
+    margin: auto;
+}
+
+.field:nth-of-type(1) ~ .field input {
+    margin-top: 30px;
+}
+
+/* iPhone X, iPhone 8/+, iPhone 7/+ */
+@media (min-resolution: 400dpi), (min-width: 350px) and (max-width: 900px) {
+
+    nav {
+        display: none;
+    }
+
+    .box {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        padding: 0;
+    }
+
+    input.big {
+        width: 80vw;
+    }
+
+    form {
+        padding-top: 20vh;
+    }
+}

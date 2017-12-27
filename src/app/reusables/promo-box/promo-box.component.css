@@ -1,0 +1,27 @@
+.promo-banner {
+    width:100vw;
+    vertical-align: bottom;
+}
+
+.promo-container {
+    position: relative;
+}
+
+.opaque {
+    opacity: 0.7;
+}
+
+.button-huge:hover {
+    cursor: pointer;
+}
+
+.on-box {
+    bottom: 20vh;
+    left: 70vw;
+}
+
+@media (min-width: 2000px) {
+    .button-huge {
+        background-color: #89d5e0;
+    }
+}
