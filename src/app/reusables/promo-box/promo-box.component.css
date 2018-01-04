@@ -20,8 +20,20 @@
     left: 70vw;
 }
 
-@media (min-width: 2000px) {
-    .button-huge {
+/* iPhone X, iPhone 8/+, iPhone 7/+ */
+@media (min-resolution: 400dpi), (min-width: 350px) and (max-width: 900px) {
+    .promo-banner {
+        display: none;
+    }
+
+    .on-box {
+        bottom: 0.75em;
+        left: 35vw;
+    }
+
+    .promo-container {
+        height: 50vh;
+        width: 100vw;
         background-color: #89d5e0;
     }
 }
