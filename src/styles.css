@@ -109,4 +109,13 @@ input.in-column {
     form {
         padding-top: 20vh;
     }
+
+    .huge {
+        width: 60vw;
+        height: 2em;
+    }
+
+    .button {
+        position: absolute;
+    }
 }
